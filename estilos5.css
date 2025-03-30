@@ -1,0 +1,57 @@
+body{
+    background-color: #ebedee ;
+    color: black;
+    background-image: url(fondos1.jpg) ;
+}
+
+a{
+    padding: 8px;
+    background: linear-gradient(to bottom,  rgb(255,255,136) 6%,rgb(255,255,136) 100%);
+    border-radius: 20px;
+    border-width: 2px;
+    border-color: black;
+    border-style: groove;
+    align-items: center;
+    
+}
+
+h1 {
+    background-color: rgb(234, 177, 238);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    color: #040404;
+    text-align: center ;
+    padding: 10px;
+    border-width: 3px;
+    border-color: black;
+    border-style: groove;
+    border-radius: 20px;
+}
+form{
+    padding: 8px;
+    border-radius: 20px;
+    text-align: center;
+    background-image: url(fondos.jpg);
+    border-width: 3px;
+    border-color: black;
+    border-style: groove
+    
+}
+
+button{
+    padding: 8px;
+    background-color:  rgb(234, 177, 238);
+    border-radius: 20px;
+    align-items: center;
+    
+}
+
+input{
+    padding: 10px;
+    border-radius: 20px;
+    border-width: 3px;
+    border-color: black;
+    border-style: groove
+    
+
+}

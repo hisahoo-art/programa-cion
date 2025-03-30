@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Este formulario calcula promedio de alumnos</title>
+    <link href="estilos3.css" rel="stylesheet" type="text/css">
+</head>
+<body leftmargin="100">
+    <br>
+    
+    <a href="index.html" title="Retorna a la hoja principal">hoja principal</a>
+    <h1>INGRESE TRES VALORES Y LE DARA UN PROMEDIO</h1>
+    <form>
+        <label for="numero1">Promedio 1:</label>
+        <input type="text" title="captura primer numero" placeholder="Ingrese Promedio 1" id="numero1">
+        <label for="numero2">Promedio 2:</label>
+        <input type="text" title="captura segundo numero" placeholder="Ingrese Promedio 2" id="numero2">
+        <label for="numero3">Promedio 3:</label>
+        <input type="text" title="captura tercer numero" placeholder="Ingrese Promedio 3" id="numero3">
+        <label for="total">Total:</label>
+        <input type="text" name="total" placeholder="Total" readonly>
+
+        <button type="button" onclick="Calcular_prom()">
+            Calcular
+        </button>
+        <button type="reset">Nuevo Cálculo</button>
+
+    </form>
+
+    <script src="scrip.js"></script>
+</body>
+</html>

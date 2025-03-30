@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Este formulario calcula factura</title>
+    <link href="estilos4.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <br>
+    <a href="index.html" title="Retorna a la hoja principal">Hoja principal</a>
+    <br>
+    <h1>Factura de Productos</h1>
+    <form>
+        <div>
+            
+            <label for="Codigo">Código:</label>
+            <input type="text" placeholder="Escriba su código" required>
+            <br><br>
+
+            <label for="Nombre de Usuario">Nombre:</label>   
+            <input type="text" placeholder="Escriba su nombre" required name="nombre">
+            <br><br>
+
+            <label for="Seleccione Genero">Género:</label>
+            <select name="Genero">
+                <option> Masculino</option>
+                <option> Femenino</option>
+                <option> No Aplica </option>
+            </select>
+            <br><br>
+
+            <label for="Seleccione Productos">Productos:</label>
+            <select name="Productos">
+                <option> Azúcar </option>
+                <option> Arroz </option>
+                <option> Maíz </option>
+                <option> Trigo </option>
+                <option> Frijoles </option>
+                <option> Harina </option>
+            </select>
+            <br><br>
+
+            <label for="Precio del Producto">Precio:</label>
+            <input type="text" title="Ingrese el precio" id="precio1" placeholder="Precio" required>
+            <br><br>
+
+            <label for="Cantidad de Productos">Cantidad:</label>
+            <input type="text" title="Ingrese la cantidad" id="cantidad1" placeholder="Cantidad" required>
+            <br><br>
+
+            <label for="Seleccione fecha">Fecha:</label>
+            <input type="date" required>
+            <br><br>
+
+            <label for="Subtotal">Subtotal:</label>
+            <input type="text" id="subtotal" placeholder="Subtotal" readonly>
+            <br><br>
+
+            <label for="Impuesto">Impuesto (15%):</label>
+            <input type="text" id="impuesto" placeholder="Impuesto" readonly>
+            <br><br>
+
+            <label for="Total">Total:</label>
+            <input type="text" id="total" placeholder="Total" readonly>
+            <br><br>
+
+            <label for="Seleccione Metodo de Pago">Método de Pago:</label>
+            <br>
+            <input type="radio" name="TipoPago" value="Credito"> Crédito
+            <br>
+            <input type="radio" name="TipoPago" value="Debito"> Débito
+            <br>
+            <input type="radio" name="TipoPago" value="Efectivo"> Efectivo
+            <br><br>
+
+            <button type="button" onclick="calcula_Factura()">Calcular</button>
+            <button type="reset">Nuevo Cálculo</button>
+        </div>
+    </form>
+    
+    <script src="scrip1.js"></script>
+
+</body>
+</html>

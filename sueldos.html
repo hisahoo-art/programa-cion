@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sueldo de empleados</title>
+    <link href="estilos5.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <br>
+    <a href="index.html" title="Retorna a la hoja principal"> hoja principal</a>
+    <br>
+
+    <h1>Calculadora de Sueldos</h1>
+    
+    <form>
+    
+    <label for="sueldo1">Sueldo 1:</label>
+    <input type="text" id="sueldo1" placeholder="Introduce el sueldo 1" required>
+    <label for="sueldo2">Sueldo 2:</label>
+    <input type="text" id="sueldo2" placeholder="Introduce el sueldo 2" required>
+    <label for="sueldo3">Sueldo 3:</label>
+    <input type="text" id="sueldo3" placeholder="Introduce el sueldo 3" required>
+    <label for="Total">Total:</label>
+    <input type="text" name="total" placeholder="Total" readonly>
+
+    <button type="button" onclick="Calcular_sueldo()">
+        Calcular </button>
+        <button type="reset">Nuevo Cálculo</button>
+
+    </form>
+
+    <script src="scrip4.js"></script>
+</body>
+</html>
